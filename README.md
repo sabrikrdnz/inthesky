@@ -8,7 +8,7 @@ You should execute the script file named "tothesky". It can work both on Linux a
 
 `$ ./tothesky`
 
-#### Prerequests
+#### Prerequisites
 
 Before execute the script you should provide some informations in terraform.tfvars file. 
 
