@@ -59,10 +59,10 @@ else
         echo "You should use Linux or MacOSx!"
 fi
 
-# executing terraform plan
+# executing terraform
 echo Executing Terraform Plan!
 echo Initializing Terraform
-#terraform init
+terraform init
 
 # Running Terraform plan to check main.tf and creating tfplan file
 terraform plan -out main.tfplan
